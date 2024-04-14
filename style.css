@@ -127,8 +127,9 @@ body {
 
 /* ============== Reusable Card Customization ==============*/
 .ui-card {
-  width: 325px;
   height: 340px;
+  max-width: 325px;
+  width: 100%;
 }
 
 .ui-card a {
@@ -170,7 +171,8 @@ body {
 }
 
 .certificate-card {
-  width: 325px;
+  max-width: 325px;
+  width: 100%;
   border-radius: 20px;
   overflow: hidden;
   display: flex;
